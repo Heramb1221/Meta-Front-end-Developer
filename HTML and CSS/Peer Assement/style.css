@@ -1,0 +1,149 @@
+/* Styling Body*/
+body {
+    background-color: #edefee;
+    font-family: 'Markazi Text', serif;
+    margin: 3rem, 3rem, 5%, 5%;
+}
+
+/*Navigation bar styling*/
+.container {
+    background-color: rgb(7, 114, 21);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.container li {
+    list-style-type: none;
+}
+
+.container a {
+    display: inline-block;
+    padding: 25px;
+    margin: 0 25px;
+    text-align: center;
+    text-decoration: none;
+    color: yellow;
+}
+
+.container a:hover {
+    background-color: rgb(186, 229, 166);
+}
+
+
+/* Little Lemon Restraunt heading*/
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(196, 196, 22);
+    background-color: rgb(6, 95, 69);
+}
+
+h1:hover {
+    color: rgb(18, 186, 132);
+}
+
+/*Information about little lemon*/
+ h1 + p {
+    font-size: 1.5rem;
+    white-space: row wrap;
+    color: rgb(196, 196, 22);
+    text-align: center;
+}
+
+#intoduction {
+    border: 5px;
+    border-radius: 2%;
+    background-color: rgb(6, 95, 69);
+}
+/*Formatting specials section*/
+h2 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#tips::before{
+    background: darkkhaki;
+    color:darkslategray;
+    content: "!!";
+    padding-left: 3px;
+    padding-right: 5px;
+    border-radius: 10%;
+}
+
+#tips::after{
+    background:darkkhaki;
+    color:darkslategray;
+    content: "!!";
+    padding-right: 5px;
+    border-radius: 20%;
+}
+
+/* Dishes section formatting and effects */
+h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+header > div {
+    display: block;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    text-align: center;
+}
+
+.new-arrivals {
+    display: inline-flex;
+    width: 300px;
+    height: 450px;
+    flex-direction: column;
+    padding: 12px;
+    margin: 5px 5px;
+    border: 5px black solid;
+    border-radius: 30px;
+    background-color: var(--background4);
+}
+
+.new-arrivals:hover {
+    transform: scaleX(120%) scaleY(120%);
+    transition: 150ms;
+    box-shadow: 5px 5px rgba(17, 17, 17, 0.379);
+}
+
+.new-arrivals>p {
+    font-weight: bold;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+
+/*Fromating footer elements*/
+footer {
+    display: flex;
+}
+
+footer div {
+    margin-top: 5%;
+    flex: 1;
+    font-size: 1em;
+}
+
+/* Styling for the back-to-top button */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
